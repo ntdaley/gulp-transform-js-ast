@@ -1,0 +1,44 @@
+{
+  "name": "gulp-transform-js-ast",
+  "version": "1.0.0",
+  "description": "Gulp plugin to transform a javascript AST using recast visitors",
+  "keywords": [
+    "gulp",
+    "plugin",
+    "angularjs",
+    "strip",
+    "remove",
+    "delete",
+    "log",
+    "debug",
+    "logging"
+  ],
+  "homepage": "https://github.com/ntdaley/gulp-transform-js-ast",
+  "issues": "https://github.com/ntdaley/gulp-transform-js-ast/issues",
+  "license": "ISC",
+  "author": "Nicholas Daley",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ntdaley/gulp-transform-js-ast.git"
+  },
+  "dependencies": {
+    "ast-types": "^0.6.6",
+    "convert-source-map": "^0.4.1",
+    "gulp-util": "^3.0.1",
+    "multi-stage-sourcemap": "^0.2.1",
+    "recast": "^0.9.6",
+    "through2": "^0.6.3",
+    "vinyl-sourcemaps-apply": "^0.1.4"
+  },
+  "bugs": {
+    "url": "https://github.com/ntdaley/gulp-transform-js-ast/issues"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
