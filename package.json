@@ -5,13 +5,13 @@
   "keywords": [
     "gulp",
     "plugin",
-    "angularjs",
-    "strip",
-    "remove",
-    "delete",
-    "log",
-    "debug",
-    "logging"
+    "recast",
+    "ast",
+    "visitor",
+    "visit",
+    "transform",
+    "javascript",
+    "js"
   ],
   "homepage": "https://github.com/ntdaley/gulp-transform-js-ast",
   "issues": "https://github.com/ntdaley/gulp-transform-js-ast/issues",
