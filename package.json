@@ -1,6 +1,6 @@
 {
   "name": "gulp-transform-js-ast",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gulp plugin to transform a javascript AST using recast visitors",
   "keywords": [
     "gulp",
@@ -15,7 +15,7 @@
   ],
   "homepage": "https://github.com/ntdaley/gulp-transform-js-ast",
   "issues": "https://github.com/ntdaley/gulp-transform-js-ast/issues",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "author": "Nicholas Daley",
   "files": [
     "index.js"
