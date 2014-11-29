@@ -41,7 +41,7 @@ gulp.task('strip-console', function() {
             visitCallExpression : function(path) {
                 if( shouldRemove(path) ) {
                     //replace with a (void 0) expression.
-                    return transform.voidExpression;
+                    return transform.voidExpression();
                 } else {
                     //don't change it.
                     return path.value;
