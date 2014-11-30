@@ -1,6 +1,6 @@
 {
   "name": "gulp-transform-js-ast",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Gulp plugin to transform a javascript AST using recast visitors",
   "keywords": [
     "gulp",

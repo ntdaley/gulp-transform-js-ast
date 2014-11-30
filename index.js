@@ -99,6 +99,7 @@ var transform = function transform(file, encoding, options) {
         }
         mergedSourceMap.setProperty('sources', inputMap.sources);
         mergedSourceMap.setProperty('sourcesContent', inputMap.sourcesContent);
+	mergedSourceMap.setProperty('file', inputMap.file);
         file.sourceMap = mergedSourceMap.toObject();
     }
 };
