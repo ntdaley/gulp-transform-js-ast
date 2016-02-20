@@ -110,7 +110,12 @@ var gulpTransform = function(options) {
         if(file.isNull()) {
             this.push(file);
         } else if(file.isBuffer()) {
-            transform(file, encoding, options);
+            try {
+                transform(file, encoding, options);
+            } catch (e) {
+                callback(e);
+                return;
+            }
             this.push(file);
         } else if(file.isStream()) {
             callback(new gutil.PluginError('gulp-strip-debug', 'Streaming not supported'));
