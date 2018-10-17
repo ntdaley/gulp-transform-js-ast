@@ -28,7 +28,7 @@
   "dependencies": {
     "ast-types": "^0.6.6",
     "convert-source-map": "^0.4.1",
-    "gulp-util": "^3.0.1",
+    "plugin-error": "1.0.1",
     "multi-stage-sourcemap": "^0.2.1",
     "recast": "^0.9.6",
     "through2": "^0.6.3",

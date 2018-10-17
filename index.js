@@ -17,7 +17,7 @@
 var applySourceMap = require('vinyl-sourcemaps-apply');
 var builders = require('ast-types').builders;
 var convert = require('convert-source-map');
-var gutil = require('gulp-util');
+var PluginError = require("plugin-error");
 var recast = require('recast');
 var through = require('through2');
 var transfer = require('multi-stage-sourcemap').transfer;
@@ -113,7 +113,7 @@ var gulpTransform = function(options) {
             transform(file, encoding, options);
             this.push(file);
         } else if(file.isStream()) {
-            callback(new gutil.PluginError('gulp-strip-debug', 'Streaming not supported'));
+            callback(new PluginError('gulp-strip-debug', 'Streaming not supported'));
             return;
         }
         callback();
